@@ -3,6 +3,32 @@ package com.javaprogram;
 public class JavaPrograms {
 
 	public static void main(String[] args) {
+
+
+		String x="silent";
+		String y="listen";
+
+		char a=x.toCharArray();
+		char b=y.toCharArray();
+
+		Arrays.sort(a);
+		Arrays.sort(b);
+
+		Boolean result=Arrays.equals(a,b);
+
+		if(result==true){
+
+			System.out.println("This words is Anagram");
+
+		}
+		else {
+
+			System.out.println(This words are Not Anagram);
+		}
+
+
+
+
 		
 
 
