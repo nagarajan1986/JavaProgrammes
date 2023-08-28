@@ -5,7 +5,7 @@ public class JavaPrograms {
 	public static void main(String[] args) {
 
 
-		String x="silenter";
+		String x="madam";
 		String y="listen";
 
 		char a=x.toCharArray();
